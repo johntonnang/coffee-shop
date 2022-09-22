@@ -5,6 +5,11 @@
   font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
 }
 
+html {
+  background-color: #2D3E38;
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background: white;
   height: 80px;
@@ -429,9 +434,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .products {
-    height: 1000px;
-  }
+
   .products h1 {
     font-size: 2rem;
     margin-top: 5rem;
@@ -462,9 +465,9 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 360px) and (max-width: 600px) {
   .products {
-    height: 800px;
+    height: 600px;
   }
 
   .products h1 {
@@ -472,35 +475,35 @@
   }
 
   .products_card {
-    height: 200px;
-    width: 175px;
+    height: 150px;
+    width: 125px;
   }
 
   .products_card:nth-child(2) {
-    height: 200px;
-    width: 175px;
+    height: 150px;
+    width: 125px;
   }
 
   .products_card:nth-child(3) {
-    height: 200px;
-    width: 175px;
+    height: 150px;
+    width: 125px;
   }
 
   .products_card:nth-child(4) {
-    height: 200px;
-    width: 175px;
+    height: 150px;
+    width: 125px;
   }
 
   .products h2 {
     font-size: 1rem;
-    top: 100px;
-    left: 20px;
+    top: 50px;
+    left: 10px;
   }
 
   .products button {
-    top: 150px;
+    top: 100px;
     scale: 0.8;
-    left: 10px;
+    left: 1px;
   }
 }
 
