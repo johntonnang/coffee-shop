@@ -53,7 +53,15 @@
           <p>Upplev våra fantastiska kaffesorter från några av världens bästa plantager</p>
         </div>
         <div class="main_img_container">
-          <img src="images/coffee-break.svg" alt="illustrerad kaffepaus i naturen" id="main_img">
+          <!-- <img src="images/coffee-break.svg" alt="illustrerad kaffepaus i naturen" id="main_img"> -->
+          <picture>
+
+            <source srcset="images/coffee-break-240-removebg-preview.png" media="(max-width: 360px)">
+            <source srcset="images/coffee-break-360-removebg-preview.png" media="(max-width: 500px)">
+            <source srcset="images/coffee-break-680-removebg-preview.png" media="(max-width: 650px)">
+
+            <img src="images/coffee-break-removebg-preview.png" alt="">
+          </picture>
         </div>
       </div>
     </div>
